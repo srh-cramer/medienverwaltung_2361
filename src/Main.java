@@ -3,10 +3,11 @@ public class Main {
 
         Author westermann = new Author("Westermann", 1957);
         Author tolkien = new Author("J.R.R. Tolkien", 1892);
+        Author kitRyan = new Author("Kit Ryan", 1960);
 
         Film botched = new Film("Botched",
                 2007,
-                "Kit Ryan",
+                kitRyan,
                 "Horror",
                 "English");
         //impliziter Aufruf von toString(), wenn die Methode für das Objekt existiert:

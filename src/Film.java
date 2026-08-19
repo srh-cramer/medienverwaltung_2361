@@ -1,20 +1,20 @@
 public class Film extends Media{
-    private String director;
+    private Author director;
     private String genre;
     private String language;
 
-    public Film(String title, int year, String director, String genre, String language) {
+    public Film(String title, int year, Author director, String genre, String language) {
         super(title, year);
         this.director = director;
         this.genre = genre;
         this.language = language;
     }
 
-    public String getDirector() {
+    public Author getDirector() {
         return this.director;
     }
 
-    public void setDirector(String director) {
+    public void setDirector(Author director) {
         this.director = director;
     }
 

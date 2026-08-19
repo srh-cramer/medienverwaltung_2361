@@ -13,6 +13,10 @@ public class Media {
         this.isAvailable = true;
     }
 
+    public boolean isAvailable(){
+        return isAvailable;
+    }
+
     public String getTitle(){
         return this.title;
     }
